@@ -69,7 +69,7 @@ class Employee{
 public class EmployeeManagementSystem {
     public static void main(String[] args){
         Scanner scanner = new Scanner(System.in);
-        Employee[] employees = new Employee[3];
+        Employee[] employees = new Employee[5];
 
         for(int i = 0; i<employees.length; i++){
             
