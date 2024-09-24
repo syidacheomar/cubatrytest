@@ -19,8 +19,8 @@ public class Student {
     public double calculateAverage(){
         int sum = 0;
 
-        for (int scores: score){
-            sum = sum + scores;
+        for (int scores: score){ //conver array to the number
+            sum = sum + scores; // sum everything in that row
         }
         averageScore = sum / score.length;
         return averageScore;
